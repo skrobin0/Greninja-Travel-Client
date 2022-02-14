@@ -9,6 +9,7 @@ import MyOrder from "./Component/Tour Manage/My Order/MyOrder";
 import ManageOrder from "./Component/Tour Manage/Manage All Order/ManageOrder";
 import ToursAdd from "./Component/Tour Manage/Tours Add/ToursAdd";
 import Galary from "./Component/Photo Gallery/PhotoGallery"
+import PrivateRoute from "./Component/Private/PrivateRoute";
 
 function App() {
   return (
@@ -28,9 +29,9 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/tourdescription/:serviceId">
+            <PrivateRoute path="/tourdescription/:serviceId">
               <TourDescription></TourDescription>
-            </Route>
+            </PrivateRoute>
             <Route path="/myOrder">
               <MyOrder></MyOrder>
             </Route>
