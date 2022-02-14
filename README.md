@@ -8,7 +8,7 @@ Project Descriptions-
 
 Here I have tried to implement some ideas in which some simple functionality is added. Here an user can experience visualized services what an event website represents. I also tried to add some admin servoce functionality in a simple manner.
 
-Projects Main Objectives/Functionalities-
+Projects Functionalities-
 
 * Home
 * Gallery
