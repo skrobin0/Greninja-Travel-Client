@@ -18,8 +18,8 @@ const Menubar = () => {
             <Link to="/home" className="nav-link">
               Home
             </Link>
-            <Link to="/galary" className="nav-link">
-              Galary
+            <Link to="/gallery" className="nav-link">
+              Gallery
             </Link>
             {users.email && (
               <NavDropdown

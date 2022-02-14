@@ -8,7 +8,7 @@ import Login from "./Component/Login/Login";
 import MyOrder from "./Component/Tour Manage/My Order/MyOrder";
 import ManageOrder from "./Component/Tour Manage/Manage All Order/ManageOrder";
 import ToursAdd from "./Component/Tour Manage/Tours Add/ToursAdd";
-import Galary from "./Component/Photo Gallery/PhotoGallery"
+import Gallery from "./Component/Photo Gallery/PhotoGallery"
 import PrivateRoute from "./Component/Private/PrivateRoute";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/galary">
-              <Galary></Galary>
+            <Route path="/gallery">
+              <Gallery></Gallery>
             </Route>
             <Route path="/login">
               <Login></Login>
