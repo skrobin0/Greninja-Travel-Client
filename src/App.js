@@ -8,8 +8,9 @@ import Login from "./Component/Login/Login";
 import MyOrder from "./Component/Tour Manage/My Order/MyOrder";
 import ManageOrder from "./Component/Tour Manage/Manage All Order/ManageOrder";
 import ToursAdd from "./Component/Tour Manage/Tours Add/ToursAdd";
-import Gallery from "./Component/Photo Gallery/PhotoGallery"
+import Gallery from "./Component/Photo Gallery/PhotoGallery";
 import PrivateRoute from "./Component/Private/PrivateRoute";
+import Error from "./Component/Error/Error";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route path="/addTours">
               <ToursAdd></ToursAdd>
+            </Route>
+            <Route path="/*">
+              <Error></Error>
             </Route>
           </Switch>
         </Router>
