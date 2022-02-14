@@ -1,0 +1,26 @@
+.background-img{
+    background-image: url(../../../Images/cover.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    filter: blur(0.5px);
+}
+
+
+
+.background-text h1{
+    font-size: 40px;
+    /* margin-bottom: 0;  */
+    color: white;
+    padding-top: 120px;
+}
+.background-text p {
+    padding-top: 18px;
+    font-size: 20px;
+    color: white;
+  }
+ 

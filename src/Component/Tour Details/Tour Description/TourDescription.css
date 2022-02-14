@@ -1,0 +1,10 @@
+.order-form form input,
+textarea {
+  width: 400px;
+}
+.Description-card{
+    margin-top: 20px;
+}
+.order-form{
+  margin-top: 20px;
+}
